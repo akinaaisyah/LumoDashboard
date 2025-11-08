@@ -4,8 +4,4 @@ import './index.css';
 import LumoDashboard from './LumoDashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <LumoDashboard />
-  </React.StrictMode>
-);
+root.render(<LumoDashboard />);
